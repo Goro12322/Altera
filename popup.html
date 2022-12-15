@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Altera</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="popup_reserve">
+    <div class="popup_reserve__mask"></div>
+    <div class="popup_reserve__inner">
+      <button class="popup_reserve__btn">
+        <img class="popup_reserve__btn-icon" src="images/popup/popup-close.svg" alt="">
+      </button>
+      <p class="popup_reserve__price">1 615 000 ₽<span>1 800 000 ₽</span></p>
+      <form class="popup_reserve__form">
+        <h2 class="popup_reserve__form-title">Забронировать автомобиль</h2>
+        <input class="popup_reserve__form-input popup_reserve__form-mark" type="text" placeholder="Toyota" readonly></input>
+        <input class="popup_reserve__form-input popup_reserve__form-model" type="text" placeholder="Camry" readonly></input>
+        <input class="popup_reserve__form-input popup_reserve__form-equipment" type="text" placeholder="2.0 AT Стандарт 2020" readonly></input>
+        <input class="popup_reserve__form-input popup_reserve__form-tel" type="tel" placeholder="Ваш телефон">
+        <input class="popup_reserve__form-input popup_reserve__form-name" type="text" placeholder="Ваше имя">
+        <div class="popup_reserve__dropdown">
+          <button class="popup_reserve__dropdown-btn" type="button">Выбрать подарок</button>
+          <ul class="popup_reserve__dropdown-list">
+            <li class="popup_reserve__dropdown-item" data-value="s2">Компенсируем дорогу до автосалона</li>
+            <li class="popup_reserve__dropdown-item" data-value="s3">Быстрое оформление КАСКО и ОСАГО за 15 минут</li>
+            <li class="popup_reserve__dropdown-item" data-value="s4">Скидка 30 000 рублей</li>
+            <li class="popup_reserve__dropdown-item" data-value="s5">Устрановка любого доп. оборудования</li>
+            <li class="popup_reserve__dropdown-item" data-value="s6">Немыслимый бонус по сервису - каждому покупателю ТО-0 и ТО-1 в подарок!</li>
+            <li class="popup_reserve__dropdown-item" data-value="s7">Бонусная карта на сервисное обслуживание вашего автомобиля</li>
+          </ul>
+          <input class="popup_reserve__dropdown-input" type="text" name="credit_form-select" value="">
+        </div>
+        <button class="popup_reserve__form-btn">Забронировать авто</button>
+      </form>
+      <div class="popup_reserve__slider">
+        <img class="popup_reserve__slider-img" src="images/popup/popup-reserve-slider-img.png" alt="">
+        <img class="popup_reserve__slider-img" src="images/popup/popup-reserve-slider-img.png" alt="">
+        <img class="popup_reserve__slider-img" src="images/popup/popup-reserve-slider-img.png" alt="">
+        <img class="popup_reserve__slider-img" src="images/popup/popup-reserve-slider-img.png" alt="">
+        <img class="popup_reserve__slider-img" src="images/popup/popup-reserve-slider-img.png" alt="">
+        <img class="popup_reserve__slider-img" src="images/popup/popup-reserve-slider-img.png" alt="">
+        <img class="popup_reserve__slider-img" src="images/popup/popup-reserve-slider-img.png" alt="">
+        <img class="popup_reserve__slider-img" src="images/popup/popup-reserve-slider-img.png" alt="">
+        <img class="popup_reserve__slider-img" src="images/popup/popup-reserve-slider-img.png" alt="">
+      </div>
+      <p class="popup_reserve__agree">
+        Нажимая кнопку “Забронировать авто” Вы даете согласие на обработку своих 
+        <a class="popup_reserve__agree-link" href="#">персональных данных</a>
+      </p>
+    </div>
+  </div>
+  <div class="popup_suggestion">
+    <div class="popup_suggestion__mask"></div>
+    <div class="popup_suggestion__plate">
+      <button class="popup_reserve__btn">
+        <img class="popup_reserve__btn-icon" src="images/popup/popup-close.svg" alt="">
+      </button>
+      <div class="popup_suggestion__inner">
+        <form class="popup_suggestion__form">
+          <h2 class="popup_suggestion__title">Получить предложение</h2>
+          <input class="popup_suggestion__input" type="text" placeholder="Ваше имя">
+          <input class="popup_suggestion__input" type="tel" placeholder="Ваш телефон">
+          <button class="popup_suggestion__form-btn">Получить предложение</button>
+        </form>
+        <div class="popup_suggestion__right">
+          <p class="popup_suggestion__price">1 615 000 ₽<span>1 800 000 ₽</span></p>
+          <img class="popup_suggestion__img" src="images/popup/popup-reserve-slider-img.png" alt="">
+        </div>
+      </div>
+      <p class="popup_suggestion__agree">
+        Нажимая кнопку “Получить предложение” Вы даете согласие на обработку своих 
+        <a class="popup_suggestion__agree-link" href="#">персональных данных</a>
+      </p>
+    </div>
+  </div>
+  <div class="popup_callback">
+    <div class="popup_callback__mask"></div>
+    <div class="popup_callback__plate">
+      <button class="popup_callback__btn">
+        <img class="popup_callback__btn-icon" src="images/popup/popup-close.svg" alt="">
+      </button>
+      <div class="popup_callback__inner">
+        <div class="popup_callback__form">
+          <h2 class="popup_callback__title">Обратный звонок</h2>
+          <input class="popup_callback__input" type="text" placeholder="Ваше имя">
+          <input class="popup_callback__input" type="tel" placeholder="Ваш телефон">
+          <button class="popup_callback__form-btn">Перезвоните мне</button>
+          <p class="popup_callback__agree">
+            Нажимая кнопку “Получить предложение” Вы даете согласие на обработку своих 
+            <a class="popup_callback__agree-link" href="#">персональных данных</a>
+          </p>
+        </div>
+        <img class="popup_callback__img" src="images/popup/popup-callback-img.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="popup_thanx">
+    <div class="popup_thanx__mask"></div>
+    <div class="popup_thanx__plate">
+      <button class="popup_thanx__btn">
+        <img class="popup_thanx__btn-icon" src="images/popup/popup-close.svg" alt="">
+      </button>
+      <img class="popup_thanx__img" src="images/popup/popup-thanx-img.png" alt="">
+      <h2 class="popup_thanx__title">Спасибо за обращение!</h2>
+      <p class="popup_thanx__text">Наш менеджер свяжется с Вами <br> в ближайшее время</p>
+      <button class="popup_thanx__plate-btn">ок</button>
+    </div>
+  </div>
+  <div class="popup_path">
+    <div class="popup_path__mask"></div>
+    <div class="popup_path__plate">
+      <button class="popup_path__btn">
+        <img class="popup_path__btn-icon" src="images/popup/popup-close.svg" alt="">
+      </button>
+      <div class="popup_path__inner">
+        <div class="popup_path__info">
+          <h4 class="popup_path__info-title">От м. Войковская</h4>
+          <p class="popup_path__info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet efficitur elementum. Proin gravida, ex nec ultrices posuere, nulla lacus dictum dolor, sit amet luctus felis mauris a quam.</p>
+          <h4 class="popup_path__info-title">От м. Войковская</h4>
+          <p class="popup_path__info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet efficitur elementum. Proin gravida, ex nec ultrices posuere, nulla lacus dictum dolor, sit amet luctus felis mauris a quam.</p>
+          <h4 class="popup_path__info-title">От м. Войковская</h4>
+          <p class="popup_path__info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet efficitur elementum. Proin gravida, ex nec ultrices posuere, nulla lacus dictum dolor, sit amet luctus felis mauris a quam.</p>
+        </div>
+        <form class="popup_path__form">
+          <h2 class="popup_path__form-title">Обратная связь</h2>
+          <input class="popup_path__form-input" type="text" placeholder="Ваше имя">
+          <input class="popup_path__form-input" type="tel" placeholder="Ваш телефон">
+          <textarea class="popup_path__form-textarea" placeholder="Текст сообщения"></textarea>
+          <button class="popup_path__form-btn">Отправить</button>
+          <p class="popup_path__agree">
+            Нажимая кнопку “Получить предложение” Вы даете согласие на обработку своих 
+            <a class="popup_path__agree-link" href="#">персональных данных</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup_callback popup_credit">
+    <div class="popup_callback__mask"></div>
+    <div class="popup_callback__plate">
+      <button class="popup_callback__btn">
+        <img class="popup_callback__btn-icon" src="images/popup/popup-close.svg" alt="">
+      </button>
+      <div class="popup_callback__inner">
+        <div class="popup_callback__form">
+          <h2 class="popup_callback__title">Выгодный автокредит</h2>
+          <input class="popup_callback__input" type="text" placeholder="Ваше имя">
+          <input class="popup_callback__input" type="tel" placeholder="Ваш телефон">
+          <button class="popup_callback__form-btn">Оставить заявку</button>
+          <p class="popup_callback__agree">
+            Нажимая кнопку “Получить предложение” Вы даете согласие на обработку своих 
+            <a class="popup_callback__agree-link" href="#">персональных данных</a>
+          </p>
+        </div>
+        <img class="popup_callback__img" src="images/popup/popup-credit-img.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="popup_callback popup_express">
+    <div class="popup_callback__mask"></div>
+    <div class="popup_callback__plate">
+      <button class="popup_callback__btn">
+        <img class="popup_callback__btn-icon" src="images/popup/popup-close.svg" alt="">
+      </button>
+      <div class="popup_callback__inner">
+        <div class="popup_callback__form">
+          <h2 class="popup_callback__title">Экспресс-кредит от 1,9%</h2>
+          <input class="popup_callback__input" type="text" placeholder="Ваше имя">
+          <input class="popup_callback__input" type="tel" placeholder="Ваш телефон">
+          <button class="popup_callback__form-btn">Оставить заявку</button>
+          <p class="popup_callback__agree">
+            Нажимая кнопку “Получить предложение” Вы даете согласие на обработку своих 
+            <a class="popup_callback__agree-link" href="#">персональных данных</a>
+          </p>
+        </div>
+        <img class="popup_callback__img" src="images/popup/popup-express-img.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="popup_callback popup_trade">
+    <div class="popup_callback__mask"></div>
+    <div class="popup_callback__plate">
+      <button class="popup_callback__btn">
+        <img class="popup_callback__btn-icon" src="images/popup/popup-close.svg" alt="">
+      </button>
+      <div class="popup_callback__inner">
+        <div class="popup_callback__form">
+          <h2 class="popup_callback__title">Скидка от 120 000₽ <br> по программе Trade-in</h2>
+          <input class="popup_callback__input" type="text" placeholder="Ваше имя">
+          <input class="popup_callback__input" type="tel" placeholder="Ваш телефон">
+          <button class="popup_callback__form-btn">Оставить заявку</button>
+          <p class="popup_callback__agree">
+            Нажимая кнопку “Получить предложение” Вы даете согласие на обработку своих 
+            <a class="popup_callback__agree-link" href="#">персональных данных</a>
+          </p>
+        </div>
+        <img class="popup_callback__img" src="images/popup/popup-trade-img.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="popup_callback popup_installment">
+    <div class="popup_callback__mask"></div>
+    <div class="popup_callback__plate">
+      <button class="popup_callback__btn">
+        <img class="popup_callback__btn-icon" src="images/popup/popup-close.svg" alt="">
+      </button>
+      <div class="popup_callback__inner">
+        <div class="popup_callback__form">
+          <h2 class="popup_callback__title">
+            <img class="popup_installment__icon" src="images/popup/popup-installment-icon.png" alt="">
+            Рассрочка 0%
+          </h2>
+          <input class="popup_callback__input" type="text" placeholder="Ваше имя">
+          <input class="popup_callback__input" type="tel" placeholder="Ваш телефон">
+          <button class="popup_callback__form-btn">Оставить заявку</button>
+          <p class="popup_callback__agree">
+            Нажимая кнопку “Получить предложение” Вы даете согласие на обработку своих 
+            <a class="popup_callback__agree-link" href="#">персональных данных</a>
+          </p>
+        </div>
+        <img class="popup_callback__img" src="images/popup/popup-installment-img.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="popup_callback popup_sale">
+    <div class="popup_callback__mask"></div>
+    <div class="popup_callback__plate">
+      <button class="popup_callback__btn">
+        <img class="popup_callback__btn-icon" src="images/popup/popup-close.svg" alt="">
+      </button>
+      <div class="popup_callback__inner">
+        <div class="popup_callback__form">
+          <h2 class="popup_callback__title">Зафиксировать скидку до 300 000 ₽ <span>на автомобиль Brilliance V3</span></h2>
+          <input class="popup_callback__input" type="text" placeholder="Ваше имя">
+          <input class="popup_callback__input" type="tel" placeholder="Ваш телефон">
+          <button class="popup_callback__form-btn">Оставить заявку</button>
+          <p class="popup_callback__agree">
+            Нажимая кнопку “Получить предложение” Вы даете согласие на обработку своих 
+            <a class="popup_callback__agree-link" href="#">персональных данных</a>
+          </p>
+        </div>
+        <img class="popup_callback__img" src="images/popup/popup-sale-img.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="auto__brands">
+    <div class="auto__brands-column">
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Kia.png" alt="">
+        Kia
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Brilliance.png" alt="">
+        Brilliance
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Citroen.png" alt="">
+        Citroen
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Ford.png" alt="">
+        Ford
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Haima.png" alt="">
+        Haima
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Lifan.png" alt="">
+        Lifan
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Peugeot.png" alt="">
+        Peugeot
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-UAZ.png" alt="">
+        UAZ
+      </a>
+    </div>
+    <div class="auto__brands-column">
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Hyundai.png" alt="">
+        Hyundai
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Changan.png" alt="">
+        Changan
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Datsun.png" alt="">
+        Datsun
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Foton.png" alt="">
+        Foton
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Haval.png" alt="">
+        Haval
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Mazda.png" alt="">
+        Mazda
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Ravon.png" alt="">
+        Ravon
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Zotye.png" alt="">
+        Zotye
+      </a>
+    </div>
+    <div class="auto__brands-column">
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Skoda.png" alt="">
+        Skoda
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Chery.png" alt="">
+        Chery
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Dongfeng.png" alt="">
+        Dongfeng
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-GAC.png" alt="">
+        GAC
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Honda.png" alt="">
+        Honda
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Mitsubishi.png" alt="">
+        Mitsubishi
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Renault.png" alt="">
+        Renault
+      </a>
+    </div>
+    <div class="auto__brands-column">
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Volkswagen.png" alt="">
+        Volkswagen
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-CheryExeed.png" alt="">
+        CheryExeed
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-DW_Hower.png" alt="">
+        DW Hower
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Geely.png" alt="">
+        Geely
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-JAC.png" alt="">
+        JAC
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Nissan.png" alt="">
+        Nissan
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-SsangYong.png" alt="">
+        SsangYong
+      </a>
+    </div>
+    <div class="auto__brands-column">
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Toyota.png" alt="">
+        Toyota
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Chevrolet.png" alt="">
+        Chevrolet
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-FAW.png" alt="">
+        FAW
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-GreatWall.png" alt="">
+        Great Wall
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Lada.png" alt="">
+        Lada
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Opel.png" alt="">
+        Opel
+      </a>
+      <a class="auto__brands-link" href="#">
+        <img class="auto__brands-logo" src="images/catalog/catalog-logo-Suzuki.png" alt="">
+        Suzuki
+      </a>
+    </div>
+  </div>
+  
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
